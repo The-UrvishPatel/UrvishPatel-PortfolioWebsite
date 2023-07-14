@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=Kaushan+Script&family=Unbounded:wght@400;500;600;700;800;900&display=swap');
+
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    width: 100%;
+}
+
+
+
+/* intro start */
+
+.intro-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* name start */
+
+.title
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+    color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px; 
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.greet
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    background-image: linear-gradient(140deg, #00ffea 40%, #0088ff, #e600ff);
+    -webkit-background-clip: text;
+    /* background-color: linear-gradient(90deg,#f5fb56,#69f1ec); */
+    /* color: rgb(230, 230, 230); */
+    color: transparent;
+}
+
+
+.name
+{
+    font-family: 'Unbounded', cursive;
+    font-weight: 500;
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: rgb(250,250,250);
+}
+
+.shadow
+{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(180deg, #00ffea 10%, #7700df);
+    /* background-color: #aa00ff; */
+    border-radius: 40%;
+    transform: perspective(100px) rotateX(80deg) scale(1,1);
+    filter: blur(30px);
+    margin-top: -50px;
+    /* border: 2px solid #7100ae; */
+}
+
+
+/* name over */
+
+
+
+
+/* description start */
+
+.desc-container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(10,10,10);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    overflow: hidden;
+}
+
+.desc
+{
+    color: rgb(240, 240, 240);
+    font-family: 'Unbounded', cursive;
+    padding: 0 50px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    /* border: 2px solid red; */
+}
+
+.star-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+}
+
+.star
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #d3004d;
+    transform: perspective(120px) rotateX(50deg) scale(0.8,1.2) rotateY(20deg);
+    filter: blur(30px);
+}
+
+
+/* description start */
+
+
+
+/* intro over */
+
+
+
+
+
+
+
+/* connect start */
+
+.connect-container
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 10px solid white; */
+    background-color: rgb(10, 10, 10);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* shooting star start */
+
+.shooting-star1
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #0022ff;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+.shooting-star2
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ff0055;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.shooting-star3
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ff006a;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.shooting-star4
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ff0059;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.shooting-star5
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #2b00ff;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 1%;
+    left: 60%;
+}
+
+.shooting-star6
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #001aff;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 1%;
+    left: 90%;
+}
+
+.shooting-star7
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #0011ff;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+
+.shooting-star8
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #0026ff;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+
+.shooting-star9
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ff0055;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 1%;
+    left: 70%;
+}
+
+
+.shooting-star10
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ff0055;
+    transform: perspective(120px) rotateX(127deg) scale(0.9,0.1) rotateY(325deg) rotateZ(43deg);
+    filter: blur(30px);
+    position: absolute;
+    top: 1%;
+    left: 30%;
+}
+
+
+/* shooting star over */
+
+
+.connect
+{
+    height: 80%;
+    width: 80%;
+    z-index: 1;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px 2px rgba(255, 0, 119, 0.2);
+}
+
+.connect-image
+{
+    /* border: 2px solid yellow; */
+    background-image: linear-gradient(0deg,rgba(255, 0, 123, 0.2) 30%,rgba(0, 0, 255, 0)) , url("connect.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-container
+{
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr;
+    gap: 10px;
+    overflow: hidden;
+    background-color: rgba(10, 10, 10, 0.6);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.connect-title
+{
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+    padding: 5px 20px;
+    line-height: 1;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.connect-title-text
+{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lets
+{
+    font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    color: rgb(230, 230, 230);
+    font-size: 30px;
+}
+
+.connect-text
+{
+    font-family: 'Unbounded', cursive;
+    color: rgb(250,250,250);
+    font-size: 70px;
+    width: 100%;
+}
+
+.form
+{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1.5fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Unbounded', cursive;
+}
+
+
+.line
+{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.input::placeholder
+{
+    font-family: 'Unbounded', cursive;
+}
+
+input
+{
+    font-family: 'Unbounded', cursive;
+    height: 90%;
+    padding: 0 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid white;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: white;
+
+}
+
+.icon
+{
+    align-self: center;
+    justify-self: center;
+}
+
+.submit
+{
+    height: 90%;
+    border: none;
+    background-color: #ff0059;
+    border-radius: 10px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 600;
+    color: rgb(0, 7, 30);
+}
+
+.submit:hover
+{
+    cursor: pointer;
+    background-color: rgb(255, 0, 80);
+}
+
+.socials
+{
+    /* border: 2px solid white; */
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social
+{
+    align-self: center;
+    justify-self: center;
+    font-size: 24px;
+}
+
+ion-icon
+{
+    font-size: 24px;
+}
+
+.red-logo
+{
+    color: #ff006a;
+}
+
+.social-logo
+{
+    font-size: 24px;
+    color: rgb(180, 180, 180);
+}
+
+/* insta linkedin snapchat twitter github resume       discord */
+
+/* connect over */
